@@ -13,6 +13,6 @@ PYTHON:
 
 BUILD PACKAGE DEBIAN:
 
-    ph_make --python --createorig --copyright lgpl3 --email teofanesp12@gmail.com
+    dh_make --python --createorig --copyright lgpl3 --email teofanesp12@gmail.com
 
     debuild
